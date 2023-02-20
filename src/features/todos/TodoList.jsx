@@ -17,7 +17,7 @@ const TodoList = () => {
         let id = 300
         addTodo({ id: id++, title: newTodo, complented: false })
         setNewTodo('')
-        console.log(id)
+        console.log(id) //duplicates fine a way increment
     }
  
     const newItemSection =
